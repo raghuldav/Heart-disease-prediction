@@ -1,95 +1,86 @@
-# Heart-Disease-Prediction
-<h1>Prediction of Heart Disease</h1>
+# Heart Disease Prediction Using Machine Learning
 
- 
+## Overview
+Heart disease remains one of the leading causes of mortality worldwide, making early detection and prevention critically important. This project leverages **machine learning techniques** to analyze clinical and lifestyle data for accurate heart disease prediction, supporting early diagnosis and improved healthcare outcomes.
 
-<h2>Description</h2>
-The comprehensive workflow integrates advanced machine learning techniques and evaluation metrics to enhance early detection and prevention of heart disease, ensuring model reliability and interpretability.
+The workflow integrates data preprocessing, exploratory data analysis, model training, hyperparameter tuning, and rigorous evaluation to ensure both **model performance and interpretability**.
 
-Predicting heart disease using machine learning starts with data collection, gathering patient information such as medical history, lifestyle factors, and clinical measurements. 
+---
 
-This data undergoes preprocessing steps including cleaning, handling missing values, normalization, and feature selection to ensure quality and relevance. Various machine learning models, such as Logistic Regression, Decision Trees, Random Forests, and Support Vector Machines (SVM), are trained on this preprocessed data.
+## Project Description
+The heart disease prediction pipeline begins with collecting patient data, including medical history, lifestyle factors, and clinical measurements. The dataset undergoes comprehensive preprocessing steps such as data cleaning, handling missing values, normalization, and feature selection to improve data quality and relevance.
 
-Hyperparameter tuning and cross-validation are applied to optimize model performance and prevent overfitting. The models are evaluated using metrics like accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrix to assess their effectiveness. Once validated, the best-performing model is deployed into a clinical decision support system for real-time heart disease prediction.
-<br />
+Multiple supervised machine learning models are trained and evaluated, including:
+- Logistic Regression  
+- Decision Trees  
+- Random Forest  
+- Support Vector Machine (SVM)
 
+To enhance model reliability and prevent overfitting, **cross-validation and hyperparameter tuning** techniques are applied. The models are evaluated using standard classification metrics such as **accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrix**. The best-performing model can be deployed as a clinical decision support system for real-time heart disease prediction.
 
-<h2>Languages and Utilities Used</h2>
+---
 
-- <b>Python</b> 
-- <b>Numpy</b>
-- <b>Pandas</b>
-- <b>Scikit-Learn</b>
-- <b>Matplotlib</b>
-- <b>Random Forest</b>
-- <b>Logistic Regression</b>
-- <b>Support Vector Machine</b>
-- <b>Decision Tree</b>
+## Technologies Used
+- **Programming Language:** Python  
+- **Libraries & Tools:**  
+  - NumPy  
+  - Pandas  
+  - Scikit-learn  
+  - Matplotlib  
+- **Machine Learning Models:**  
+  - Logistic Regression  
+  - Decision Tree  
+  - Random Forest  
+  - Support Vector Machine (SVM)  
 
-<h2>Environments Used </h2>
+---
 
-- <b>Windows 10</b> (21H2)
-- <b>RAM 8GB</b>
-- <b>Hard Disk 500GB</b>
-- <b>Anaconda, jupyter Notebook IDE</b>
+## Development Environment
+- **Operating System:** Windows 10 (21H2)  
+- **Tools & IDEs:** Anaconda, Jupyter Notebook  
+- **Hardware Requirements:**  
+  - 8 GB RAM  
+  - 500 GB Storage  
 
-<h2>Program walk-through:</h2>
+---
+
+## Program Walkthrough
 
 <p align="center">
-Open Jupyter Notebook: <br/>
-<img src="https://imgur.com/ljzb7Np.jpg" height="80%" width="80%" alt="Open Notebook"/>
-<br />
-<br />
-Import libraries:  <br/>
-<img src="https://imgur.com/3NbGQy6.jpg" height="80%" width="80%" alt="Import Libraries"/>
-<br />
-<br />
-Import Dataset: <br/>
-<img src="https://imgur.com/MvlkflL.png" height="80%" width="80%" alt="Import dataset"/>
-<br />
-<br />
-Box Plot Visualization:  <br/>
-<img src="https://imgur.com/4leNkAu.png" height="80%" width="80%" alt="Box Plot"/>
-<br />
-<br />
-Joint Plot Visualization:  <br/>
-<img src="https://imgur.com/pH7Y0Fd.png" height="80%" width="80%" alt="Joint Plot"/>
-<br />
-<br />
-Bar Chart Visualization:  <br/>
-<img src="https://imgur.com/0LYqQB3.png" height="80%" width="80%" alt="Bar Chart"/>
-<br />
-<br />
-Pie Chart Visualization:  <br/>
-<img src="https://imgur.com/K25g368.png" height="80%" width="80%" alt="Pie Chart"/>
-<br />
-<br />
-Correlation Matrix:  <br/>
-<img src="https://imgur.com/VRTMgti.png" height="80%" width="80%" alt="Correlation Matrix"/>
-<br />
-<br />
-Finding Best Machine Learning Model using Bar Chart:  <br/>
-<img src="https://imgur.com/tfM5OJy.png" height="80%" width="80%" alt="Bar Graph"/>
-<br />
-<br />
-Hyperparameter Tuning:  <br/>
-<img src="https://imgur.com/wAbIngL.png" height="80%" width="80%" alt="Tuning"/>
-<br />
-<br />
-Prediction Using Test Data:  <br/>
-<img src="https://imgur.com/a1TaOCi.png" height="80%" width="80%" alt="Test Data"/>
-<br />
-<br />
+<b>Step 1: Open Jupyter Notebook</b><br/>
+<img src="https://imgur.com/ljzb7Np.jpg" width="80%" alt="Open Notebook"/>
+
+<br/><br/>
+<b>Step 2: Import Required Libraries</b><br/>
+<img src="https://imgur.com/3NbGQy6.jpg" width="80%" alt="Import Libraries"/>
+
+<br/><br/>
+<b>Step 3: Load the Dataset</b><br/>
+<img src="https://imgur.com/MvlkflL.png" width="80%" alt="Import Dataset"/>
+
+<br/><br/>
+<b>Step 4: Exploratory Data Analysis (EDA)</b><br/>
+Box Plot, Joint Plot, Bar Chart, Pie Chart, and Correlation Matrix Visualizations<br/>
+<img src="https://imgur.com/4leNkAu.png" width="80%" alt="Box Plot"/>
+<img src="https://imgur.com/pH7Y0Fd.png" width="80%" alt="Joint Plot"/>
+<img src="https://imgur.com/0LYqQB3.png" width="80%" alt="Bar Chart"/>
+<img src="https://imgur.com/K25g368.png" width="80%" alt="Pie Chart"/>
+<img src="https://imgur.com/VRTMgti.png" width="80%" alt="Correlation Matrix"/>
+
+<br/><br/>
+<b>Step 5: Model Comparison</b><br/>
+<img src="https://imgur.com/tfM5OJy.png" width="80%" alt="Model Comparison"/>
+
+<br/><br/>
+<b>Step 6: Hyperparameter Tuning</b><br/>
+<img src="https://imgur.com/wAbIngL.png" width="80%" alt="Hyperparameter Tuning"/>
+
+<br/><br/>
+<b>Step 7: Prediction on Test Data</b><br/>
+<img src="https://imgur.com/a1TaOCi.png" width="80%" alt="Prediction Results"/>
 </p>
 
+---
 
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+## Conclusion
+This project demonstrates the effectiveness of machine learning in predicting heart disease by combining robust preprocessing, exploratory analysis, and model optimization techniques. The results highlight the potential of data-driven approaches in supporting clinical decision-making and improving early diagnosis outcomes.
